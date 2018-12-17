@@ -1,7 +1,7 @@
 #FUNCTIONS color        #ffb86c - ORANGE        KEYWORD1, KEYWORD2
 #STRUCTURE color        #50fa7b - GREEN			KEYWORD3
-#CONSTANTS color        #8be9fd - BLUE          LITERAL1
-#VARIABLES color 		#8be9fd - BLUE          LITERAL2
+#CONSTANTS color        #ff5555 - RED           LITERAL1
+#VARIABLES color 		#ff5555 - RED           LITERAL2
 #COMMENTS color         #6272a4 - LIGHT GREY
 #ERROR color            #ff5555 - RED
 
@@ -129,12 +129,12 @@ editor.reserved_word.style  = #50fa7b, plain
 
 # TEXT - LITERALS
 # Literals keywords color
-editor.literal1.style                       = #8be9fd, plain
-editor.literal2.style                       = #8be9fd, plain
+editor.literal1.style                       = #ff5555, plain
+editor.literal2.style                       = #ff5555, plain
 editor.variable.style                       = #8be9fd, plain
 editor.reserved_word_2.style                = #8be9fd, plain
-editor.literal_boolean.style                = #8be9fd, plain
-editor.literal_char.style                   = #8be9fd, plain
+editor.literal_boolean.style                = #ff5555, plain
+editor.literal_char.style                   = #f1fa8c, plain
 editor.literal_string_double_quote.style    = #f1fa8c, plain
 editor.preprocessor.style                   = #50fa7b, plain
 

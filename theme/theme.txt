@@ -1,0 +1,157 @@
+#FUNCTIONS color        #ffb86c - ORANGE        KEYWORD1, KEYWORD2
+#STRUCTURE color        #50fa7b - GREEN			KEYWORD3
+#CONSTANTS color        #8be9fd - BLUE          LITERAL1
+#VARIABLES color 		#8be9fd - BLUE          LITERAL2
+#COMMENTS color         #6272a4 - LIGHT GREY
+#ERROR color            #ff5555 - RED
+
+#BACKGROUND Darkest     #181920
+#BACKGROUND Medium      #20212B
+#BACKGROUND Normal      #282a36
+
+
+
+
+
+# GUI - STATUS
+# Status above the console
+status.notice.fgcolor   = #50fa7b
+status.notice.bgcolor   = #20212B
+status.error.fgcolor    = #f8f8f2
+status.error.bgcolor    = #ff5555
+status.edit.fgcolor     = #20212B
+status.edit.bgcolor     = #ffb86c
+status.font             = Consolas, plain, 12
+
+# GUI - TABS
+# Tabs of files open
+header.bgcolor                  = #20212B
+header.text.selected.color      = #ff79c6
+header.text.unselected.color    = #bd93f9
+header.text.font                = Consolas, plain, 12
+
+# GUI - CONSOLE
+# Compiler & Uploader console
+console.font            = Consolas, plain, 11
+console.font.macosx     = Consolas, plain, 11
+console.color           = #000000
+console.output.color    = #50fa7b
+console.error.color     = #ff5555
+
+# GUI - BUTTONS
+# Buttons above the tabs
+buttons.bgcolor         = #181920
+buttons.status.font     = Consolas, plain, 12
+buttons.status.color    = #f8f8f2
+
+# GUI - PLOTTING (Has not been updates)
+# Serial plot tool
+plotting.bgcolor            = #ffffff
+plotting.color              = #ffffff
+plotting.gridcolor          = #f0f0f0
+plotting.boundscolor        = #000000
+plotting.graphcolor.size    = 8
+plotting.graphcolor.00      = #0000FF
+plotting.graphcolor.01      = #FF0000
+plotting.graphcolor.02      = #009900
+plotting.graphcolor.03      = #FF9900
+plotting.graphcolor.04      = #CC00CC
+plotting.graphcolor.05      = #666666
+plotting.graphcolor.06      = #00CCFF
+plotting.graphcolor.07      = #000000
+
+# GUI - LINESTATUS
+# Editor line status at the bottom
+linestatus.color    = #f8f8f2
+linestatus.bgcolor  = #181920
+linestatus.font	    = Consolas, plain, 12
+linestatus.height   = 17
+
+
+
+
+
+# EDITOR - BACKGROUND
+# Foreground & Background colors
+editor.fgcolor  = #f8f8f2
+editor.bgcolor  = #282a36
+
+# EDITOR - CURRENT LINE
+# Highlighting for the current line
+editor.linehighlight        = true
+editor.linehighlight.color  = #44475a
+
+# EDITOR - CARET
+# Caret blinking & color
+editor.caret.color = #f8f8f2
+
+# EDITOR - EXTERNAL EDITOR
+# Background color for when 'external editor' is enabled
+editor.external.bgcolor = #c8d2dc
+
+# EDITOR - SELECTION
+# Color of the selected area
+editor.selection.color = #44475a
+
+# EDITOR - INVALID
+# No clue what this actually does
+# Original description: Area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #7e7e7e, bold
+
+# EDITOR - END OF LINE
+# Little pooties that indicate the end of lines
+editor.eolmarkers           = false
+editor.eolmarkers.color     = #50fa7b
+
+# EDITOR - BRACKET HIGHLIGHTING
+# Highlighting of brackets and parentheses
+editor.brackethighlight         = true
+editor.brackethighlight.color   = #f8f8f2
+
+
+
+
+
+# TEXT - FUNCTIONS
+# Function keywords color
+editor.keyword1.style   = #ffb86c, bold
+editor.data_type.style  = #ffb86c, bold
+
+# TEXT - METHODS
+# Method keywords color
+editor.keyword2.style   = #ffb86c, plain
+editor.function.style   = #ffb86c, plain
+
+# TEXT - STRUCTURES
+# Structures keywords color
+editor.keyword3.style       = #50fa7b, plain
+editor.reserved_word.style  = #50fa7b, plain
+
+# TEXT - LITERALS
+# Literals keywords color
+editor.literal1.style                       = #8be9fd, plain
+editor.literal2.style                       = #8be9fd, plain
+editor.variable.style                       = #8be9fd, plain
+editor.reserved_word_2.style                = #8be9fd, plain
+editor.literal_boolean.style                = #8be9fd, plain
+editor.literal_char.style                   = #8be9fd, plain
+editor.literal_string_double_quote.style    = #f1fa8c, plain
+editor.preprocessor.style                   = #50fa7b, plain
+
+# TEXT - LINKS
+# Styling of links
+editor.url.style = #8be9fd, underlined
+
+# TEXT - OPERATORS
+# Operators color, + - = / etc.
+editor.operator.style = #ff79c6, plain
+
+# TEXT - LABEL
+# No clue what this actually does
+# Original description: ?? maybe this is for words followed by a colon, like in case statements or goto
+editor.label.style = #7e7e7e, bold
+
+# TEXT - COMMENTS
+# Colors of the two comment styles
+editor.comment1.style   = #6272a4, plain
+editor.comment2.style   = #6272a4, plain
